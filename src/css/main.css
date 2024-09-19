@@ -12,3 +12,103 @@ img,
 video {
   display: block;
 }
+body {
+  font-family: Roboto;
+}
+.charts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 10px;
+}
+.bar {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 2px;
+}
+.mobile {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+.desktop {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+.Suisse,
+.états-unis,
+.europe {
+  width: 100px;
+  color: #000;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+.mobile1 {
+  width: 195px;
+}
+.desktop1 {
+  width: 105px;
+}
+
+.mobile2 {
+  width: 153px;
+}
+.desktop2 {
+  width: 147px;
+}
+
+.mobile3 {
+  width: 123px;
+}
+.desktop3 {
+  width: 177px;
+}
+.Mobile_legend,
+.desktop_legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.carre1 {
+  width: 16px;
+  height: 16px;
+  background: #ffcc2f;
+}
+.carre2 {
+  width: 16px;
+  height: 16px;
+  background: #37d3d2;
+}
+.legend {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
